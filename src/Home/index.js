@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <>
       <div style={myStyle}>
-        <p>
+        <p className='font-mono bg-slate-300 text-center'>
           An adventure is an exciting experience or undertaking that is
           typically bold, sometimes risky. Adventures may be activities with
           some potential for physical danger such as traveling, exploring,
