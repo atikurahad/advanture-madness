@@ -1,4 +1,5 @@
 import React from 'react';
+import Services from '../Services';
 import './home.css';
 
 const Home = () => {
@@ -26,6 +27,9 @@ const Home = () => {
         {" "}
         Look deep into nature, and you will understand everything better.
       </span>
+
+    <Services />
+
     </>
   );
 };
