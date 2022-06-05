@@ -7,7 +7,7 @@ const Navigation = () => {
   const menuItems = (
     <>
       <li>
-        <Link to="/" className="text-2xl">
+        <Link to="/"  className="text-2xl">
           Home
         </Link>
       </li>
