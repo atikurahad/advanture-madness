@@ -2,5 +2,8 @@
   border: 2px solid green;
   border-radius: 5px;
 width: 30rem;
-margin-top: 1rem;
+margin-top: .5rem;
 margin: auto;}
+p{
+  margin: 70px;
+}
