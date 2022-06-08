@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Services from "../Services";
 import "./home.css";
 
@@ -43,10 +44,10 @@ const Home = () => {
             read your blog posts, subscribe to your email newsletter, or buy
             what you’re selling.
           </p>
-          <button className="btn bg-teal-900 mx-[20rem] p-2 mb-2  text-white">
+          <Link to="/about" className="btn bg-teal-900 mx-[20rem] p-2 mb-2  text-white">
             {" "}
             Find Out More
-          </button>
+          </Link>
         </section>
 
         <section className="border-4 m-3 items-center justify-center">
