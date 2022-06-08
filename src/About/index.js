@@ -13,7 +13,7 @@ function About() {
             Tell website visitors who you are and why they should choose your
             business.
           </h1>
-          <p className='text-2xl text-center'>
+          <p className="text-2xl text-center">
             Because when a visitor first lands on your website, you’re a
             stranger to them. They have to get to know you in order to want to
             read your blog posts, subscribe to your email newsletter, or buy
@@ -33,7 +33,45 @@ function About() {
           ></img>
         </section>
       </div>
-      <p className='text-center text-[#fa210e] font-semibold text-5xl'>Adventure Can Make Your Mind Extra Feel</p>
+
+      <h1 className="text-4xl text-center font-mono text-zinc-600 m-4 shadow-md">
+        We’re a highly collaborative and supportive team,
+        <br /> coming together on every project to ensure our <br /> clients get
+        the very best result.
+      </h1>
+
+      <section>
+        <img
+          className="mx-auto m-5"
+          src="https://cdn.pixabay.com/photo/2016/04/01/18/33/nature-1301305_1280.jpg"
+          alt="jungle-img"
+        ></img>
+      </section>
+
+      <div className=" grid grid-cols-2">
+        <section>
+          <h1 className="text-3xl text-center font-semibold font-mono m-3">
+            Our Mission
+          </h1>
+          <p>
+            Build the best product that creates the most value for our
+            customers,
+            <br /> use business to inspire and implement environmentally
+            friendly solutions.
+          </p>
+        </section>
+        <section>
+          <h1 className="text-3xl text-center font-semibold font-mono m-3">
+            Our Values
+          </h1>
+          <p>
+            We strive to go above and beyond for our clients no matter the
+            challenge. <br />
+            We aim to deliver our very best work every single day across our
+            services.
+          </p>
+        </section>
+      </div>
     </>
   );
 }
