@@ -5,12 +5,10 @@ import Footer from "./Footer";
 import Home from "./Home";
 import Services from "./Services";
 import Navigation from "./Navigation";
-
 function App() {
   return (
     <>
-      <Navigation />
-
+   {/* <Navigation /> */}
       <Routes>
         <Route index element={<Home />} />
         <Route path="/about" element={<About />} />
