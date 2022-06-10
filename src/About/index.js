@@ -3,7 +3,7 @@ import React from 'react'
 function About() {
   return (
     <>
-      <div className="text-6xl text-center font-serif from-neutral-500">
+      <div className="text-6xl text-center font-serif from-neutral-500 border-2 bg-black text-white mx-auto">
         About Us
       </div>
 
