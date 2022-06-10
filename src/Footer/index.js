@@ -112,13 +112,11 @@ function Footer() {
         </div>
 
         <div
-          className="text-center text-gray-700 p-4 bg-[black]"
-          // style="background-color: rgba(0, 0, 0, 0.2);"
+          className="text-center text-3xl font-serif text-[gold] p-4 bg-[#080707]"
         >
-          © 2021 Copyright:
-          <a className="text-gray-800" href="https://tailwind-elements.com/">
-            Tailwind Elements
-          </a>
+          © 2022 Copyright:
+          <a className="text-[yellow] ">
+Atikur Ahad          </a>
         </div>
       </footer>
 
