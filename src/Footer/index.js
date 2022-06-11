@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 function Footer() {
   return (
@@ -111,12 +111,9 @@ function Footer() {
           </div>
         </div>
 
-        <div
-          className="text-center text-3xl font-serif text-[gold] p-4 bg-[#080707]"
-        >
+        <div className="text-center text-3xl font-serif text-[gold] p-4 bg-[#080707]">
           © 2022 Copyright:
-          <a className="text-[yellow] ">
-Atikur Ahad          </a>
+          <a className="text-[yellow] ">Atikur Ahad </a>
         </div>
       </footer>
 
@@ -130,4 +127,4 @@ Atikur Ahad          </a>
   );
 }
 
-export default Footer
+export default Footer;
